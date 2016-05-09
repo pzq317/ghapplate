@@ -10,7 +10,7 @@ current version: v2.2.0
 
 ## How it looks
 
-Open http://webapplate.github.io/ghapplate to see the basic looks and feel.
+Open http://pzq317.github.io/ghapplate to see the basic looks and feel.
 
 ![Real welcome page](http://i.imgur.com/8AGwXCG.png)
 
