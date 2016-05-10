@@ -53,9 +53,23 @@ Exchange the line above for this to enable offline support
       <a class="navbar-brand" href="#">Webapplate</a>
       <ul class="nav navbar-nav pull-left">
       </ul>
+      <script src="lib/html5_qrcode.min.js"></script>
     </header>
     <section id="content" class="well">
       <!-- Add your site or application content here -->
+      <div id="reader" style="width:300px;height:250px">hi
+	<script>$('#reader').html5_qrcode(function(data){
+ 		 // do something when code is read
+ 	},
+ 	function(error){
+		//show read errors 
+	}, function(videoError){
+		//the video stream could be opened
+	}
+);</script>
+
+	</div>
+	
       <h3 data-l10n-id="hello"></h3>
       <p data-l10n-id="info_static"></p>
     </section>
